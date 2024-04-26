@@ -13,3 +13,8 @@ The test scripts in this collection are equipped with assertions that validate r
 4. **Set the Environment**: Ensure the correct environment is selected for the collection.
 5. **Run the Collection**: Right click on the collection folder and choose 'Run Collection' to watch the tests in action.
 6. **Review Test Outcomes**: Postman will present the test results in the 'Tests' tab corresponding to each request.
+
+## Links
+- [Postman Download](https://www.postman.com/downloads/)
+- [Postman Documentation](https://learning.postman.com/docs/getting-started/introduction/)
+- [Simple Books API Documentation](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md)
