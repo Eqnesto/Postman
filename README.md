@@ -1,20 +1,12 @@
-# Postman - API Automation
+# API Automation with Postman
 
-This repository contains a collection of API tests implemented in Postman using Simple Books API. It addresses multiple scenarios such as initiating client profiles, book acquisition, order management, amongst others.
+This repository contains API tests for the Simple Books API, implemented in Postman. It covers scenarios like client profile creation, book acquisition, and order management, using a Bearer Token for secure authentication.
 
-It integrates a Bearer Token for authentication, ensuring each API request is securely authorized as it would be in a production environment. The test suite includes dynamic pre-request scripts that automatically set up necessary variables before each test, optimizing the configuration for accurate execution.
+Tests include dynamic pre-request scripts for automatic setup and assertions to validate response status, content, and reliability across various scenarios, including both positive and negative cases.
 
-The test scripts in this collection are equipped with assertions that validate response status codes, content integrity, and other crucial metrics to confirm the API performs reliably under various scenarios. Additionally, the suite thoroughly tests both positive and negative scenarios to ensure a comprehensive coverage and robust error handling.
-
-## How to Execute
-1. **Get the Tools**: Clone this repository to get the Postman collection and environment files.
-2. **Launch Postman**: Fire up Postman on your machine.
-3. **Import with Ease**: Click the 'Import' button at the top left corner and select the downloaded files.
-4. **Set the Environment**: Ensure the correct environment is selected for the collection.
-5. **Run the Collection**: Right click on the collection folder and choose 'Run Collection' to watch the tests in action.
-6. **Review Test Outcomes**: Postman will present the test results in the 'Tests' tab corresponding to each request.
-
-## Links
-- [Postman Download](https://www.postman.com/downloads/)
-- [Postman Documentation](https://learning.postman.com/docs/getting-started/introduction/)
-- [Simple Books API Documentation](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md)
+## How to Run
+1. Clone the repository.
+2. Open Postman and import the collection and environment files.
+3. Select the correct environment.
+4. Right-click the collection and select "Run Collection."
+5. Review the test results in the 'Tests' tab.
