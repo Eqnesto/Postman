@@ -8,5 +8,5 @@ Tests include dynamic pre-request scripts for automatic setup and assertions to 
 1. Clone the repository.
 2. Open Postman and import the collection and environment files.
 3. Select the correct environment.
-4. Right-click the collection and select "Run Collection."
-5. Review the test results in the 'Tests' tab.
+4. Right-click the collection and select Run Collection.
+5. Review the results in the Tests tab.
